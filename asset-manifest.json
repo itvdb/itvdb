@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/itvdb/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/itvdb/static/js/main.dca5d1b6.chunk.js",
+    "main.js.map": "/itvdb/static/js/main.dca5d1b6.chunk.js.map",
+    "runtime-main.js": "/itvdb/static/js/runtime-main.975f6fd0.js",
+    "runtime-main.js.map": "/itvdb/static/js/runtime-main.975f6fd0.js.map",
+    "static/js/2.e308a349.chunk.js": "/itvdb/static/js/2.e308a349.chunk.js",
+    "static/js/2.e308a349.chunk.js.map": "/itvdb/static/js/2.e308a349.chunk.js.map",
+    "static/js/3.22b1b6d6.chunk.js": "/itvdb/static/js/3.22b1b6d6.chunk.js",
+    "static/js/3.22b1b6d6.chunk.js.map": "/itvdb/static/js/3.22b1b6d6.chunk.js.map",
+    "index.html": "/itvdb/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/itvdb/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.e308a349.chunk.js.LICENSE.txt": "/itvdb/static/js/2.e308a349.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/itvdb/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.975f6fd0.js",
+    "static/js/2.e308a349.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.dca5d1b6.chunk.js"
+  ]
+}
