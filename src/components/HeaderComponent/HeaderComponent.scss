@@ -1,0 +1,29 @@
+header {
+	background-color: gray;
+	display: grid;
+	grid-template-columns: auto;
+
+	h1 {
+		text-align: center;
+		a {
+			color: black;
+			&:hover {
+				color: black;
+			}
+		}
+	}
+
+	nav {
+		display: grid;
+		grid-template-columns: auto;
+		text-align: center;
+		a {
+			padding: 6px;
+			color: black;
+			&:hover {
+				background-color: rgb(187, 187, 187);
+				color: black;
+			}
+		}
+	}
+}
