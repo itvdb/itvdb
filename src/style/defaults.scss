@@ -1,0 +1,14 @@
+@import "./font.scss";
+
+* {
+	font-family: $font;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.screen-width {
+	max-width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -5,13 +5,15 @@ import "./HeaderComponent.scss";
 
 export const HeaderComponent = ({title, ...props}) => (
     <header>
-        <h1>
-            <a href="#">{ title }</a>
-        </h1>
-        <nav>
-                    <a href="#">projects</a>
-                    <a href="#">contact</a>
-        </nav>
+        <div className="header">
+            <h1>
+                <a href="#">{ title }</a>
+            </h1>
+            <nav>
+                <a href="#">projects</a>
+                <a href="#">contact</a>
+            </nav>
+        </div>
     </header>
 )
 
@@ -20,7 +22,7 @@ HeaderComponent.propTypes = {
 }
 
 HeaderComponent.defaultProps = {
-    title: "Title"
+    title: "iTVDB"
 }
 
 export default HeaderComponent;

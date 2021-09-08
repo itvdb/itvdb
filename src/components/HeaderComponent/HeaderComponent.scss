@@ -1,28 +1,53 @@
-header {
-	background-color: gray;
-	display: grid;
-	grid-template-columns: auto;
+@import "../../style/font.scss";
+@import "../../style/screensizes.scss";
+@import "../../style/colors.scss";
 
-	h1 {
+header {
+	background-color: $background;
+	padding-left: 10px;
+	padding-right: 10px;
+	.header {
+		display: grid;
+		grid-template-columns: auto;
 		text-align: center;
-		a {
-			color: black;
-			&:hover {
-				color: black;
-			}
+
+		@media screen and (min-width: $screen-tablet) {
+			grid-template-columns: 200px auto;
+			max-width: 1080px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+	a {
+		color: $color;
+		text-decoration: none;
+		&:hover {
+			color: $color-light;
+		}
+	}
+	h1 {
+		@media screen and (min-width: $screen-tablet) {
+			text-align: left;
 		}
 	}
 
 	nav {
 		display: grid;
 		grid-template-columns: auto;
-		text-align: center;
+
+		@media screen and (min-width: $screen_tablet) {
+			margin-left: auto;
+			width: 240px;
+			grid-template-columns: auto auto;
+		}
 		a {
 			padding: 6px;
 			color: black;
+			transition: background-color 0.5s ease-in-out;
 			&:hover {
-				background-color: rgb(187, 187, 187);
-				color: black;
+				background-color: $background-light;
+				color: $color-light;
 			}
 		}
 	}
