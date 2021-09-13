@@ -1,34 +1,26 @@
-@import "../../style/defaults.scss";
-@import "../../style/colors.scss";
-@import "../../style/screensizes.scss";
-
-.page {
-	background-color: $background;
-	margin-left: auto;
-	margin-right: auto;
-}
+@import '../../style/defaults.scss';
 
 .intro {
-	background-image: url("../../assets/img/intro2.jpg");
-	background-size: cover;
-	height: 50vh;
-	position: relative;
+    background-image: url('../../assets/img/intro2.jpg');
+    background-size: cover;
+    height: 50vh;
+    position: relative;
 
-	h1 {
-		color: $color-white;
-		padding-top: 10vh;
-		font-size: 3em;
-		text-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.5);
-		text-align: center;
-		@media screen and (min-width: $screen_tablet) {
-			text-align: right;
-		}
-	}
+    h1 {
+        color: $color-white;
+        padding-top: 10vh;
+        font-size: 3em;
+        text-shadow: 2.5px 2.5px rgba(0, 0, 0, 0.5);
+        text-align: center;
+    }
+    p {
+        color: $color-white;
+    }
 }
 
 .projects {
-	display: grid;
-	@media screen and (min-width: $screen_tablet) {
-		grid-template-columns: auto auto auto;
-	}
+    display: grid;
+    @media screen and (min-width: $screen_tablet) {
+        grid-template-columns: auto auto auto;
+    }
 }

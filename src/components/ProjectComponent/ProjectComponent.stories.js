@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { ProjectComponent } from "./ProjectComponent";
+import { ProjectComponent } from './ProjectComponent';
 
 export default {
-	title: "General/Project",
-	component: ProjectComponent,
+    title: 'General/Project',
+    component: ProjectComponent,
 };
 
 const Template = (args) => <ProjectComponent {...args} />;

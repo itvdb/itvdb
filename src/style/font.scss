@@ -1,13 +1,13 @@
-$font: "Rubik";
+$font: 'Rubik';
 
 @font-face {
-	font-family: "Rubik";
-	src: url("./Rubik-VariableFont_wght.ttf");
+    font-family: 'Rubik';
+    src: url('./Rubik-VariableFont_wght.ttf');
 }
 
 * {
-	font-family: $font;
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+    font-family: $font;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

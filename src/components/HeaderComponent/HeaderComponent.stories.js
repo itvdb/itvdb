@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import { HeaderComponent } from "./HeaderComponent";
+import { HeaderComponent } from './HeaderComponent';
 
 export default {
-	title: "General/Header",
-	component: HeaderComponent,
+    title: 'General/Header',
+    component: HeaderComponent,
 };
 
 const Template = (args) => <HeaderComponent {...args} />;

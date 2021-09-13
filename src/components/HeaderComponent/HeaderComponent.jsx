@@ -1,28 +1,35 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import "./HeaderComponent.scss";
+// routing
+import { Link } from "react-router-dom";
 
-export const HeaderComponent = ({title, ...props}) => (
+import './HeaderComponent.scss';
+
+export const HeaderComponent = ({ title, ...props }) => (
     <header>
         <div className="header">
             <h1>
-                <a href="#">{ title }</a>
+                <Link to={`/`}>{title}</Link>
             </h1>
             <nav>
-                <a href="#">projects</a>
-                <a href="#">contact</a>
+                <Link className="background-animation" to={`/projects`}>
+                    projects
+                </Link>
+                <Link className="background-animation" to={`/contact`}>
+                    contact
+                </Link>
             </nav>
         </div>
     </header>
-)
+);
 
 HeaderComponent.propTypes = {
     title: PropTypes.string.isRequired,
-}
+};
 
 HeaderComponent.defaultProps = {
-    title: "iTVDB"
-}
+    title: 'iTVDB',
+};
 
 export default HeaderComponent;

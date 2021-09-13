@@ -1,0 +1,34 @@
+@import '../../style/defaults.scss';
+
+$border-radius: 10px;
+
+.about {
+    background-color: $background-blue;
+    padding: 3vh 0;
+    width: 100%;
+
+    section {
+        color: $color-white;
+        padding: 2vh 10px;
+        display: grid;
+        text-align: center;
+        img {
+            border-radius: $border-radius;
+            width: 80%;
+            height: auto;
+            max-width: 480px;
+            margin: 0 auto;
+        }
+    }
+
+    .content {
+        display: grid;
+        @media screen and (min-width: $screen_mobile_large) {
+            grid-template-columns: auto auto;
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+}

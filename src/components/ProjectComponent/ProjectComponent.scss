@@ -1,50 +1,50 @@
-@import "../../style/colors.scss";
-@import "../../style/screensizes.scss";
+@import '../../style/colors.scss';
+@import '../../style/screensizes.scss';
 
 $radius: 10px;
 
 .card {
-	position: relative;
-	margin: 5px;
-	height: 200px;
-	border-radius: $radius;
-	box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
-	color: $color-white;
-	background-repeat: no-repeat;
-	background-size: cover;
-	@media screen and (min-width: $screen_tablet) {
-		max-width: 500px;
-	}
-	.glass {
-		width: inherit;
-		height: 100%;
-		border-radius: $radius;
-		background-color: rgba(255, 255, 255, 0.2);
-		transition: background-color 0.5s ease;
-		&:hover {
-			background-color: rgba(255, 255, 255, 0);
-		}
-	}
+    position: relative;
+    margin: 5px;
+    height: 200px;
+    border-radius: $radius;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    color: $color-white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media screen and (min-width: $screen_tablet) {
+        max-width: 500px;
+    }
+    .glass {
+        width: inherit;
+        height: 100%;
+        border-radius: $radius;
+        background-color: rgba(255, 255, 255, 0.2);
+        // transition: background-color 0.5s ease;
+        &:hover {
+            background-color: rgba(255, 255, 255, 0);
+        }
+    }
 
-	.info {
-		position: absolute;
-		bottom: $radius;
-		right: $radius;
-		.project {
-			margin-bottom: 5px;
-			display: flex;
-			img {
-				margin-right: 3px;
-			}
-			.title {
-				text-align: right;
-				color: white;
-			}
-		}
-		.skill {
-			float: right;
-			width: 20px;
-			height: 20px;
-		}
-	}
+    .info {
+        position: absolute;
+        bottom: $radius;
+        right: $radius;
+        .project {
+            margin-bottom: 5px;
+            display: flex;
+            img {
+                margin-right: 3px;
+            }
+            .title {
+                text-align: right;
+                color: white;
+            }
+        }
+        .skill {
+            float: right;
+            width: 20px;
+            height: 20px;
+        }
+    }
 }
