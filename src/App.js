@@ -2,7 +2,8 @@ import './App.css';
 import HomePage from './pages/home';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import NotFoundPage from './pages/notFound';
-import { ProjectsPage } from './pages/projects/projectsPage';
+import ProjectsPage from './pages/projects';
+import Project from './pages/project';
 
 function App() {
     return (
@@ -30,7 +31,7 @@ function App() {
                         <ProjectsPage />
                     </Route>
                     <Route path={`/projects/:projectID`}>
-                        <h1>Projects</h1>
+                        <Project />
                     </Route>
                     <Route path={`/contact`}>
                         <h1>Contact</h1>

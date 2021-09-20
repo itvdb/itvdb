@@ -1,5 +1,5 @@
 /** #All iTVDB Projects */
-const projects = () => {
+const projects =
     // Template
     // {
     //     title: '',
@@ -21,12 +21,12 @@ const projects = () => {
     //     ],
     //     story: '',
     // },
-    return [
+    [
         {
             title: 'Promatask',
             background: 'promatask/ROP06601_854x480.jpg',
-            page: 'https://www.promatask.com',
-            link: '/projects/promatask',
+            link: 'https://www.promatask.com',
+            page: 'promatask',
             skills: ['react'],
             pictures: [
                 {
@@ -42,7 +42,16 @@ const projects = () => {
             ],
             story: 'Tom Mestrom had als jonge ondernemer al snel frustraties met het maken en bijhouden van facturen. Dit moest en zou stoppen.',
         },
+        {
+            title: 'iTVDB',
+            background: '974338_854x480.jpg',
+            page: 'itvdb',
+            link: 'https://www.itvdb.com',
+            skills: ['react', 'node-js', 'sass'],
+            pictures: [],
+            feedback: [],
+            story: '',
+        },
     ];
-};
 
 export default projects;

@@ -4,6 +4,7 @@ import _ from 'lodash';
 import Tooltip from '@material-ui/core/Tooltip';
 
 import './ProjectComponent.scss';
+import { Typography } from '@material-ui/core';
 
 const Skills = ({ list }) => {
     if (_.isEmpty(list)) return <></>;
@@ -29,7 +30,7 @@ export const ProjectComponent = ({
     ...props
 }) => (
     <>
-        <a href={`${page}`}>
+        <a href={`/projects/${page}`}>
             <div
                 className="card"
                 style={{
@@ -46,8 +47,8 @@ export const ProjectComponent = ({
                             }}
                             src={`./assets/icons/external-link-alt-solid.svg`}
                             alt={`link to ${title}`}
-                        />{' '}
-                        <h6 className="title">{title}</h6>
+                        />
+                        <h3 className="title">{title}</h3>
                     </a>
                     <div className="skill-summation">
                         <Skills list={skills} />

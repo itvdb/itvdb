@@ -2,6 +2,9 @@ import React from "react";
 import HeaderComponent from '../../components/HeaderComponent';
 import ProjectComponent from '../../components/ProjectComponent';
 
+// data
+import projects from "../../utils/projects";
+
 // styling
 import "./projectsPage.scss";
 
@@ -16,15 +19,19 @@ export const ProjectsPage = ({ ...props }) => {
                     <p>Neem een kijkje achter de schermen!</p>
                 </section>
                 <section className="projects-big screen-width">
-                    <ProjectComponent
-                        background={'promatask/ROP06601_854x480.jpg'}
-                        link={'https://www.promatask.com'}
-                        page={`/projects/promatask`}
-                        skills={["react"]}
-                        title={`Promatask`}
-                    />
+                    {projects.map((p) => (
+                        <ProjectComponent
+                            background={p.background}
+                            link={p.link}
+                            page={p.page}
+                            skills={p.skills}
+                            title={p.title}
+                        />
+                    ))}
                 </section>
             </div>
         </>
     )
 }
+
+export default ProjectsPage;
