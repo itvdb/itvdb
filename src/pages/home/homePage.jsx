@@ -1,7 +1,6 @@
 import React from 'react';
 import AboutComponent from '../../components/AboutComponent';
 import Footer from '../../components/FooterComponent/FooterComponent';
-import Header from '../../components/HeaderComponent';
 import Project from '../../components/ProjectComponent';
 import projects from "../../utils/projects";
 
@@ -10,7 +9,6 @@ import './homePage.scss';
 export const HomePage = ({ ...props }) => {
     return (
         <>
-            <Header />
             <div className="page">
                 <section className="intro">
                     <h1 className="screen-width">From vision to Reality</h1>

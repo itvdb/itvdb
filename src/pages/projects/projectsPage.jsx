@@ -1,5 +1,4 @@
 import React from "react";
-import HeaderComponent from '../../components/HeaderComponent';
 import ProjectComponent from '../../components/ProjectComponent';
 
 // data
@@ -11,12 +10,11 @@ import "./projectsPage.scss";
 export const ProjectsPage = ({ ...props }) => {
     return (
         <>
-            <HeaderComponent />
             <div className="page">
                 <section className="intro">
                     <h1>Projects</h1>
                     <p>Welkom in mijn groeiend lijstje van projecten</p>
-                    <p>Neem een kijkje achter de schermen!</p>
+                    <p>Neem gerust een kijkje achter de schermen!</p>
                 </section>
                 <section className="projects-big screen-width">
                     {projects.map((p) => (
