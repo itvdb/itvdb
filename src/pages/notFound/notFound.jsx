@@ -1,12 +1,10 @@
 import React from "react";
-import Header from '../../components/HeaderComponent';
 
 import "./notFound.scss";
 
 export const NotFoundPage = ({ ...props }) => {
     return (
         <>
-            <Header />
             <div className="page">
                 <section className="intro">
                     <h1>404</h1>
