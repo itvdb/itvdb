@@ -1,11 +1,19 @@
 import React from 'react';
-import { useParams } from 'react-router';
+import { useParams, withRouter } from 'react-router';
+import _ from 'lodash';
 
 // data
 import projects from '../../utils/projects';
 
 export const ProjectPage = ({ ...props }) => {
     let { projectID } = useParams();
+
+    const selectedProject = (id) => {
+        const project = projects.filter((p) => p.page === id);
+        if (_.isEmpty(project)) props.history.push('/404');
+
+        return project[0];
+    };
 
     return (
         <>
@@ -23,14 +31,27 @@ export const ProjectPage = ({ ...props }) => {
             >
                 <h1>{projectID}</h1>
             </section>
-            <section className="screen-width">
-                <p>pictures?</p>
-            </section>
-            <section className="screen-width">
+            <div className="screen-width">
+                {selectedProject(projectID).pictures.map((p, index) => (
+                    <div
+                        style={{
+                            // eslint-disable-next-line no-cond-assign
+                            float: `${(index %= 2) ? 'right' : 'left'}`,
+                        }}
+                    >
+                        <img
+                            src={`/assets/projects/${p.src}`}
+                            alt={`${p.alt}`}
+                            className="image"
+                        />
+                    </div>
+                ))}
+            </div>
+            <div className="screen-width">
                 <p>feedback</p>
-            </section>
+            </div>
         </>
     );
 };
 
-export default ProjectPage;
+export default withRouter(ProjectPage);
