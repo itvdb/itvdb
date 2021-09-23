@@ -30,8 +30,16 @@ const projects =
             skills: ['react'],
             pictures: [
                 {
-                    src: '',
-                    alt: '',
+                    src: '974338_854x480.jpg',
+                    alt: 'image 1',
+                },
+                {
+                    src: '974338_854x480.jpg',
+                    alt: 'image 2',
+                },
+                {
+                    src: '974338_854x480.jpg',
+                    alt: 'image 3',
                 },
             ],
             feedback: [
@@ -48,8 +56,26 @@ const projects =
             page: 'itvdb',
             link: 'https://www.itvdb.com',
             skills: ['react', 'node-js', 'sass'],
-            pictures: [],
-            feedback: [],
+            pictures: [
+                {
+                    src: '974338_854x480.jpg',
+                    alt: 'image 1',
+                },
+                {
+                    src: '974338_854x480.jpg',
+                    alt: 'image 2',
+                },
+                {
+                    src: '974338_854x480.jpg',
+                    alt: 'image 3',
+                },
+            ],
+            feedback: [
+                {
+                    name: 'Tim',
+                    lines: '<p>This is a <i>"test"</i></p>',
+                },
+            ],
             story: '',
         },
     ];
