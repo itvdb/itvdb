@@ -23,7 +23,8 @@ const sidebars = {
 			link: {
 				type: "generated-index",
 				title: "Projecten",
-				description: "iTVDB heeft gewerkt aan volgende projecten",
+				description:
+					"Een highlight van interessante projecten waaraan iTVDB heeft kunnen meewerken",
 			},
 			items: [
 				{

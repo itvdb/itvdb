@@ -65,11 +65,11 @@ const config = {
 				items: [
 					{
 						label: "Projecten",
-						to: "/docs/projects/promatask",
+						to: "docs/category/projecten",
 					},
 					{
 						label: "Team",
-						to: "docs/team/tim",
+						to: "docs/category/team",
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
 				],
