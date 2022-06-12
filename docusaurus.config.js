@@ -60,17 +60,17 @@ const config = {
 				title: "iTVDB",
 				logo: {
 					alt: "itvdb logo",
-					src: "img/logo-2.png",
+					src: "img/logo2.png",
 				},
 				items: [
 					{
 						label: "Projecten",
 						to: "docs/category/projecten",
 					},
-					{
-						label: "Team",
-						to: "docs/category/team",
-					},
+					// {
+					// 	label: "Team",
+					// 	to: "docs/category/team",
+					// },
 					{ to: "/blog", label: "Blog", position: "left" },
 				],
 			},
