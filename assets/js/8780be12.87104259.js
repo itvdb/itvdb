@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitvdb=self.webpackChunkitvdb||[]).push([[924],{9880:function(s){s.exports=JSON.parse('{"label":"offerte","permalink":"/docs/tags/offerte","allTagsPath":"/docs/tags","count":1,"items":[{"id":"projects/promatask/promatask","title":"Promatask","description":"Professionaly managing your tasks","permalink":"/docs/projects/promatask/"}]}')}}]);

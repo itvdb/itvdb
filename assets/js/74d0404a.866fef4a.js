@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitvdb=self.webpackChunkitvdb||[]).push([[117],{3996:function(t){t.exports=JSON.parse('{"title":"Het team","slug":"/category/team","permalink":"/docs/category/team","navigation":{"next":{"title":"About - Tim","permalink":"/docs/team/tim"}}}')}}]);

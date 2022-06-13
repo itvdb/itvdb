@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitvdb=self.webpackChunkitvdb||[]).push([[713],{3457:function(e){e.exports=JSON.parse('[{"label":"nieuw","permalink":"/blog/tags/nieuw","count":1},{"label":"blog","permalink":"/blog/tags/blog","count":1},{"label":"groei","permalink":"/blog/tags/groei","count":1}]')}}]);
