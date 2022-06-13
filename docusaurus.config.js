@@ -82,7 +82,7 @@ const config = {
 						items: [
 							{
 								label: "Promatask",
-								to: "/projects/promatask",
+								to: "docs/projects/promatask",
 							},
 						],
 					},
