@@ -1,5 +1,5 @@
 ---
-id: wrongEmail
+slug: /wordt-email-guru
 title: Je emails zijn verkeerd! 📨
 draft: true
 ---
