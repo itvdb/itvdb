@@ -71,6 +71,10 @@ const config = {
 					// 	to: "docs/category/team",
 					// },
 					{ to: "/blog", label: "Blog", position: "left" },
+					{
+						to: "/contact",
+						label: "Contact",
+					},
 				],
 			},
 			footer: {
