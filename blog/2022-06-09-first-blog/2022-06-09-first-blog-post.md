@@ -44,7 +44,7 @@ Ik vind het dan ook belangrijk dat de mensen waar ik mee samenwerk zich in een o
 
 ## Wie ben jij?
 
-Nu even genoeg over mij. Heb je vragen of wil een kennismakingsgesprek dan kan je deze zeker aanvragen!
+Nu even genoeg over mij. Heb je vragen of wil een kennismakingsgesprek dan kan je deze zeker [aanvragen](https://calendly.com/itvb/30min)!
 Intressante onderwerpen neem ik mee in de blog, dus zeker sturen!
 
 Tot snel

@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "iTVDB",
 	tagline: "From vision to reality",
-	url: "https://my-org.github.io",
+	url: "https://itvdb.github.io",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -66,6 +66,10 @@ const config = {
 						label: "Projecten",
 						to: "docs/category/projecten",
 					},
+					// {
+					// 	label: "Netwerk",
+					// 	to: "docs/category/netwerk",
+					// },
 					// {
 					// 	label: "Team",
 					// 	to: "docs/category/team",

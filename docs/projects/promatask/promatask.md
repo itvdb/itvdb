@@ -1,47 +1,59 @@
 ---
 id: promatask
 title: Promatask
-description: Professionaly managing your tasks
+description: Gemakkelijk factureren in de cloud
 tags:
     - offerte
     - factuur
     - emails
 sidebar_position: 1
-image: promatask_logo_100x100.webp
 authors: timmyjongen
 ---
 
-![logo](promatask_logo_100x100.webp)
+<!-- ![logo](promatask_logo_100x100.webp) -->
 
-> Professionaly Managing your Tasks
+> Een eigenaardige naam voor eigenlijk iets heel simpels want Promatask staat voor:
+>
+> PROfessionaly MAnaging your TASKs
 
-Een slogan met een super idee!
+Een slogan met een gedurft idee!
 
 ## Achtergrond
 
-Als freelancer kom je geregeld conculega's die dezelfde opstakels meemaken;
+Als freelancer kom je geregeld conculega's tegen die dezelfde opstakels meemaken.
+Factureren met behulp van een heleboel textverwerkers of zelfs op papier. Dit is traag, neemt veel tijd in beslag. Om eerlijk te zijn, is dit niet meer werkbaar.
+Er bestaan hier al een aantal oplossingen voor, één daarvan is Promatask.
 
-Zelfstandigen factureren met behulp van Excell, Word, kladblok of zelfs nog alles op papier. Dit is eigenlijk niet meer werkbaar. Er bestaan hiervoor al reeds een aantal oplossingen voor, één daarvan is Promatask:
+## Wie zijn we?
 
-![founders](ROP00202_640x960.jpg)
+![founders](ROP00202.jpg)
 
-Van links naar rechts; Jonas Mertens, Tim Van Den Bosch en Tom Mestrom.
+Van links naar rechts: [Jonas Mertens](https://www.linkedin.com/in/mertensjonas), [Tim Van Den Bosch](https://www.linkedin.com/in/timvandenbosch/) en [Tom Mestrom](https://www.linkedin.com/in/tmestrom/).
 
-## Visie
+Ondernemers met elk een expertise van hun vakgebied: Verzekeringen, Development en Global Management.
+Gezamelijk beheersen we de nodige pijlers om een degelijke dienst te creëren waar elke zelfstandige/kmo/ondernemer van kan dromen.
 
-Een online oplossing voor _elke freelancer of KMO_ waarbij de zaak centraal staat.
+## Wat is Promatask?
+
+Promatask is een verzameling van _key components_ van een zaak.
 
 -   offertes
 -   facturen
 -   actualisaties
+-   opvolging
+-   boekhouder connectie
 -   ...
 
-Kortom, de administratie van je zaak; volledig online en werkt voor jou.
+Gericht op een papiervrije werking waarbij alles in de cloud staat. Je neemt dus je zaak met je mee, waar je ook gaat.
+
+Door middel van het gemakkelijk opbouwen van je zaak in de cloud, maak je offertes en facturen slechts aan de hand van een aantal kliks.
 
 _*My kind of SaaS*_ (software as a service)
 
 ---
 
-[promatask.com](https://www.promatask.com)
+## Contact
 
-<!-- [linkedin](https://www.linkedin.com/promatask) -->
+![Promatask](promatask.svg)
+[website](https://www.promatask.com)
+[linkedin](https://www.linkedin.com/promatask)
