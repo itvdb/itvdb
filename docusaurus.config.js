@@ -66,14 +66,18 @@ const config = {
 						label: "Projecten",
 						to: "docs/category/projecten",
 					},
-					// {
-					// 	label: "Netwerk",
-					// 	to: "docs/category/netwerk",
-					// },
-					// {
-					// 	label: "Team",
-					// 	to: "docs/category/team",
-					// },
+					{
+						label: "Netwerk",
+						to: "docs/category/netwerk",
+					},
+					{
+						label: "Team",
+						to: "docs/category/team",
+					},
+					{
+						to: "/docs/category/diensten",
+						label: "Diensten",
+					},
 					{ to: "/blog", label: "Blog", position: "left" },
 					{
 						to: "/contact",
