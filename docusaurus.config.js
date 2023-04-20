@@ -75,7 +75,7 @@ const config = {
 						to: "docs/category/team",
 					},
 					{
-						to: "/docs/category/diensten",
+						to: "/diensten",
 						label: "Diensten",
 					},
 					{ to: "/blog", label: "Blog", position: "left" },
