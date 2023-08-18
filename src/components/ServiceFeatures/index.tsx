@@ -3,76 +3,85 @@ import React from "react";
 type ServiceItem = {
 	title: string;
 	features: Array<string>;
-	price: string;
 };
 
 const ServiceList: ServiceItem[] = [
 	{
-		title: "je eerste website",
+		title: "Website",
 		features: [
-			"een wordpress website",
-			"jouw domein",
-			"je eigen email",
-			"hulp met het opstarten",
+			"E-mails",
+			"Websites",
+			"Webshops",
+			"Nieuwsbrieven",
+			"SEO optimalisatie",
+			"24/7 support",
 		],
-		price: "€ 20/maand",
 	},
 	{
-		title: "Je bedrijf",
-		features: ["een website", "3 domeinen", "5 emails", "3 redirects", "3 subdomeinen"],
-		price: "€ 50/maand",
+		title: "Software",
+		features: ["Development", "Testing", "SaaS", "Analyses", "24/7 support"],
 	},
 	{
-		title: "Online entrepreneur",
+		title: "Consultancy",
+		features: ["Projecten", "Advies", "(meer) Jaarcontracten", "24/7 support"],
+	},
+	{
+		title: "IT Infrastructuur",
 		features: [
-			"een website",
-			"5 domeinen",
-			"10 emails",
-			"5 redirects",
-			"3 subdomeinen",
-			"maandelijkse SEO meetings",
+			"Computers",
+			"Monitors",
+			"randapparatuur",
+			"Netwerk",
+			"Antivirus",
+			"Remote access",
+			"24/7 support",
 		],
-		price: "€ 150/maand",
 	},
 ];
 
 function Service(service: ServiceItem) {
 	return (
 		<div
+			className="card margin-top--md"
 			style={{
-				textAlign: "center",
-				boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-				padding: 20,
-				width: 300,
-				borderRadius: 8,
-				margin: 20,
+				width: "inherit",
 			}}
 		>
-			<h2>{service.title}</h2>
-			<div
-				style={{
-					flexGrow: 1,
-				}}
-			>
-				{service.features.map((feat) => (
-					<p>{feat}</p>
-				))}
+			<div className="card__header">
+				<h2>{service.title}</h2>
 			</div>
-			<p>{service.price}</p>
+			<div className="card__body">
+				<ul>
+					{service.features.map((feat) => (
+						<li>{feat}</li>
+					))}
+				</ul>
+			</div>
+			<div className="card__footer">
+				<a className="button button--secondary button--block" href="/contact">
+					Neem contact op
+				</a>
+			</div>
 		</div>
 	);
 }
 
 export default function ServiceFeatures() {
 	return (
-		<section
-			style={{
-				display: "flex",
-			}}
-		>
-			{ServiceList.map((service, idx) => (
-				<Service key={idx} {...service} />
-			))}
-		</section>
+		<div className="container">
+			<div className="row">
+				{ServiceList.map((service, idx) => (
+					<div
+						className="col col--6"
+						style={{
+							display: "flex",
+							justifySelf: "stretch",
+						}}
+					>
+						<Service key={idx} {...service} />
+					</div>
+				))}
+			</div>
+		</div>
 	);
 }
