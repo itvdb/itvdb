@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitvdb=self.webpackChunkitvdb||[]).push([[807],{9316:a=>{a.exports=JSON.parse('{"label":"factuur","permalink":"/docs/tags/factuur","allTagsPath":"/docs/tags","count":1,"items":[{"id":"projects/promatask/promatask","title":"Promatask","description":"Gemakkelijk factureren in de cloud","permalink":"/docs/projects/promatask/"}]}')}}]);

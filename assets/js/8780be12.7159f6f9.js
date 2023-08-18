@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkitvdb=self.webpackChunkitvdb||[]).push([[924],{9880:function(e){e.exports=JSON.parse('{"label":"offerte","permalink":"/docs/tags/offerte","allTagsPath":"/docs/tags","count":1,"items":[{"id":"projects/promatask/promatask","title":"Promatask","description":"Gemakkelijk factureren in de cloud","permalink":"/docs/projects/promatask/"}]}')}}]);
