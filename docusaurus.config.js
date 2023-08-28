@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
 	title: "iTVDB",
 	tagline: "From vision to reality",
-	url: "https://itvdb.github.io",
+	url: "https://www.itvdb.be",
 	baseUrl: "/",
 	onBrokenLinks: "throw",
 	onBrokenMarkdownLinks: "warn",
@@ -116,7 +116,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} iTVDB, Torenstraat 87A Attenrode, tim@itvdb.be`,
+				copyright: `Copyright © ${new Date().getFullYear()} iTVDB, Torenstraat 87A Attenrode, BE0757.525.557, tim@itvdb.be`,
 			},
 			prism: {
 				theme: lightCodeTheme,
