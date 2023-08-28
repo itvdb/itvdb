@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://itvdb.github.io/blog</id>
+    <id>https://www.itvdb.be/blog</id>
     <title>iTVDB Blog</title>
-    <updated>2022-06-09T00:00:00.000Z</updated>
+    <updated>2022-09-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://itvdb.github.io/blog"/>
+    <link rel="alternate" href="https://www.itvdb.be/blog"/>
     <subtitle>iTVDB Blog</subtitle>
-    <icon>https://itvdb.github.io/img/logo2.ico</icon>
+    <icon>https://www.itvdb.be/img/logo2.ico</icon>
     <entry>
         <title type="html"><![CDATA[Nieuw leesvoer 👋]]></title>
-        <id>https://itvdb.github.io/blog/leesvoer</id>
-        <link href="https://itvdb.github.io/blog/leesvoer"/>
-        <updated>2022-06-09T00:00:00.000Z</updated>
+        <id>https://www.itvdb.be/blog/leesvoer</id>
+        <link href="https://www.itvdb.be/blog/leesvoer"/>
+        <updated>2022-09-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ja, nog eentje 🎉]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ja-nog-eentje-">Ja, nog eentje 🎉<a href="#ja-nog-eentje-" class="hash-link" aria-label="Direct link naar Ja, nog eentje 🎉" title="Direct link naar Ja, nog eentje 🎉">​</a></h2><p>Nog een blog!</p><p>Wanneer je een blog leest verwacht je slechts informatie, iets wat licht leest, een andere kijk, ...</p><p>Maar net zoals ik krijg je van overal reclame, wordt beladen met allemaal verschillende links.
 Deze informatie is eigenlijk meer clickbait (cliché want ik ga dat ook doen 😏)</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="wie-ben-ik">Wie ben ik?<a href="#wie-ben-ik" class="hash-link" aria-label="Direct link naar Wie ben ik?" title="Direct link naar Wie ben ik?">​</a></h2><p><img loading="lazy" alt="foto van tim" src="/assets/images/tim-64277232cee60e3150fa01e5b964d279.jpeg" width="930" height="712" class="img_ev3q"></p><p>Mijn naam is Tim Van Den Bosch,</p><p>Ik ben gebeten door IT van kinds af aan. Ik volg dan ook de spelers op de markt net zoals de kleinste innovaties. Het fijne hieraan is om deze informatie dan ook te delen.
@@ -22,7 +22,8 @@ Deze beroepen hebben mij het perspectief gegeven dat een probleem er een is die 
 Intressante onderwerpen neem ik mee in de blog, dus zeker sturen!</p><p>Tot snel</p><p>Tim</p>]]></content>
         <author>
             <name>Tim Van Den Bosch</name>
-            <uri>https://itvdb.com</uri>
+            <email>tim@itvdb.be</email>
+            <uri>https://www.linkedin.com/in/timvandenbosch/</uri>
         </author>
         <category label="nieuw" term="nieuw"/>
         <category label="blog" term="blog"/>
