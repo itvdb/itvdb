@@ -89,7 +89,7 @@ const config = {
 				style: "dark",
 				links: [
 					{
-						title: "Projects",
+						title: "Projecten",
 						items: [
 							{
 								label: "Promatask",
@@ -107,7 +107,7 @@ const config = {
 						],
 					},
 					{
-						title: "More",
+						title: "Meer",
 						items: [
 							{
 								label: "Blog",
@@ -116,7 +116,7 @@ const config = {
 						],
 					},
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} iTVDB, Inc. Built with Docusaurus.`,
+				copyright: `Copyright © ${new Date().getFullYear()} iTVDB, Torenstraat 87A Attenrode, tim@itvdb.be`,
 			},
 			prism: {
 				theme: lightCodeTheme,
